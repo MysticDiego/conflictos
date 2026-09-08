@@ -26,6 +26,8 @@ public class Suma {
     }
 
     public int suma() {
-        return numA + numB + numC;
+        int resultado = numA + numB + numC;
+        System.out.println("El resultado de la suma es: " + resultado);
+        return resultado;
     }
 }
