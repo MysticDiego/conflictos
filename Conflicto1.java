@@ -7,7 +7,7 @@ public class Conflicto1 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int a, b, c;
-
+        System.out.println("Ejemplo de Sumar tres numeros");
         System.out.println("Ingrese el valor de A:");
         a = Integer.parseInt(br.readLine());
 
@@ -16,5 +16,9 @@ public class Conflicto1 {
 
         System.out.println("Ingrese el valor de C:");
         c = Integer.parseInt(br.readLine());
+        
+        int resultado;
+        resultado = a + b + c;
+        System.out.println("El resultado de la suma es: " + resultado);
     }
 }
